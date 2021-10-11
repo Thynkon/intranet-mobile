@@ -1,0 +1,30 @@
+{
+  "name": "intranet-mobile",
+  "version": "1.0.0",
+  "description": "Time + attendance management",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url scss/menu.scss css/menu.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thynkon/intranet-mobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thynkon/intranet-mobile/issues"
+  },
+  "homepage": "https://github.com/Thynkon/intranet-mobile#readme",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^6.0.1"
+  }
+}
