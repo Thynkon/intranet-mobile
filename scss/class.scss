@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "variables";
+
+.class-event {
+    border-radius: 20%/50%;
+    height: 5vh;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
