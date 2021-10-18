@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Intranet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../css/menu/menu.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="../css/attendance/attendance.css"
+      type="text/css"
+      media="all"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="../img/logo.png" alt="CPNV logo" width="112" height="208" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item"> Prénom, Nom </a>
+
+          <a class="navbar-item"> Documentation </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> Horaire </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item"> Semaine </a>
+              <a class="navbar-item"> Jour </a>
+            </div>
+          </div>
+
+          <a class="navbar-item"> Gestion absences </a>
+
+          <a class="navbar-item"> Paramètres </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-rounded">
+                <strong>Déconnexion</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Horizontally align all items in grid -->
+    <!-- bulma.io/documentation/layout/hero -->
+    <div class="hero">
+      <div class="hero-body colums is-desktop is-mobile is-vcentered pt-1">
+        <div class="column is-size-4 has-text-centered">
+          <a href="#">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          Semaine 7
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+        <form class="column">
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">08:00 - 08:45</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">08:50 - 09:35</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">09:50 - 10:35</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">10:40 - 11:25</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">11:30 - 12:15</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">13:30 - 14:15</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">14:20 - 15:05</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">15:20 - 16:05</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">16:10 - 16:55</label>
+            </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+                <div class="control has-icons-left">
+                  <div class="select is-fullwidth is-rounded">
+                    <select>
+                      <option>Présent</option>
+                      <option>Absence justifiée</option>
+                      <option>Arrivée en retard</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fas fa-user-check"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-label">
+              <!-- Left empty for spacing -->
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <button class="button is-primary is-fullwidth is-rounded">
+                    Enregistrer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
