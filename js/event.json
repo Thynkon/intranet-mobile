@@ -1,0 +1,445 @@
+[
+    {
+      "title": "Année 2021-2022",
+      "start": "2021-08-23",
+      "end": "2022-06-01"
+    },
+    {
+      "title": "1er semester 2021-2022",
+      "start": "2021-08-23",
+      "end": "2022-01-22"
+    },
+    {
+      "title": "1er trimestre 2021-2022",
+      "start": "2021-08-23",
+      "end": "2021-11-13"
+    },
+    {
+      "title": "Vacances d'automne",
+      "start": "2021-10-18",
+      "end": "2021-10-30"
+    },
+    {
+      "title": "Semaine COM 1 2021-2022",
+      "start": "2021-11-08",
+      "end": "2021-11-13"
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "GUI1",
+      "daysOfWeek": [
+        "1"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "09:35:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "GUI1",
+      "daysOfWeek": [
+        "1"
+      ],
+      "startTime": "09:50:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Physique",
+      "daysOfWeek": [
+        "1"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "16:05:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Anglais",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "08:50:00",
+      "endTime": "10:35:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "PRW1",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "10:40:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "PRW1",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "16:05:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "G&O",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "16:10:00",
+      "endTime": "16:55:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Maths",
+      "daysOfWeek": [
+        "3"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "09:35:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "CLD1",
+      "daysOfWeek": [
+        "3"
+      ],
+      "startTime": "09:50:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "MAW 1.1",
+      "daysOfWeek": [
+        "3"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "16:05:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "SQL1",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "10:35:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Maths",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "10:40:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Appuis",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "12:40:00",
+      "endTime": "13:25:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Français",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "15:05:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "SQL1",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "15:20:00",
+      "endTime": "16:55:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "GPR1",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "09:35:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": " MAW 1.1 ",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "09:50:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "CLD1",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "15:20:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-08-23",
+      "title": "Rattrapages",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "15:20:00",
+      "endTime": "16:55:00",
+      "endRecur": "2021-10-16",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "GUI1",
+      "daysOfWeek": [
+        "1"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "09:35:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "GUI1",
+      "daysOfWeek": [
+        "1"
+      ],
+      "startTime": "09:50:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Physique",
+      "daysOfWeek": [
+        "1"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "16:05:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Anglais",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "08:50:00",
+      "endTime": "10:35:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "PRW1",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "10:40:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "PRW1",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "16:05:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "G&O",
+      "daysOfWeek": [
+        "2"
+      ],
+      "startTime": "16:10:00",
+      "endTime": "16:55:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Maths",
+      "daysOfWeek": [
+        "3"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "09:35:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "CLD1",
+      "daysOfWeek": [
+        "3"
+      ],
+      "startTime": "09:50:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "MAW 1.1",
+      "daysOfWeek": [
+        "3"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "16:05:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "SQL1",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "10:35:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Maths",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "10:40:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Appuis",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "12:40:00",
+      "endTime": "13:25:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Français",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "15:05:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "SQL1",
+      "daysOfWeek": [
+        "4"
+      ],
+      "startTime": "15:20:00",
+      "endTime": "16:55:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "GPR1",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "08:00:00",
+      "endTime": "09:35:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": " MAW 1.1 ",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "09:50:00",
+      "endTime": "12:15:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "CLD1",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "13:30:00",
+      "endTime": "15:20:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    },
+    {
+      "startRecur": "2021-11-01",
+      "title": "Rattrapages",
+      "daysOfWeek": [
+        "5"
+      ],
+      "startTime": "15:20:00",
+      "endTime": "16:55:00",
+      "endRecur": "2021-11-13",
+      "editable": true
+    }
+  ]
