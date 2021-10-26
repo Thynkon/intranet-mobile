@@ -2,13 +2,23 @@
 
 @import "../lib/variables";
 @import "../lib/lib";
+$padding: 30vh;
 
 .class-event {
-    border-radius: 20%/50%;
-    height: 5vh;
+    border-radius: 8vh;;
 }
 
 .is-vertical-center {
     display: flex;
     align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .padding-left {
+        padding-left: $padding;
+    }
+
+    .padding-right {
+        padding-right: $padding;
+    }
 }
