@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
           duration: { days: 3 } 
         }
       },    */ 
-      dayMaxEventRow:false,
       
       slotMinTime:'07:00',
       slotMaxTime:'19:00',
@@ -37,6 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
       height: 'auto',    
       events: '../js/event.json',
       eventColor: 'green',   
+      eventClick: function(info) {
+        url = info.event.title;
+        if(url === 'Français') url = 'Francais'
+        window.open(url+".html",'_self');
+      }
     });
     calendar.render();
   });

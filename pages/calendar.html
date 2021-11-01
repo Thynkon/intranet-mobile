@@ -7,9 +7,68 @@
     <script src='../node_modules/fullcalendar/main.js'></script>
     <script src="../js/app.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.9.0/locales/fr.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"  />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/menu/menu.css" type="text/css" media="all" />
     
   </head>
   <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="../img/logo.png" alt="CPNV logo" width="112" height="208" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item"> Prénom, Nom </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> Horaire </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item"> Semaine </a>
+              <a class="navbar-item"> Jour </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="/pages/attendance.html"> Gestion absences </a>
+
+          <a class="navbar-item"> Paramètres </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-rounded">
+                <strong>Déconnexion</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div id='calendar'></div>
+    <script src="../js/main.js"></script>
   </body>
 </html>
