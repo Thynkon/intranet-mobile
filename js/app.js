@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         duration: { days: 3 } 
       }
     }, 
-    initialView: url[1] !== 'day'? 'timeGridWeek':'timeGridDay',
+    initialView: url[1] !== 'day'? 'Semaine':'timeGridDay',
 
       
       slotMinTime:'07:00',
@@ -34,7 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         duration: { days: 5 },
         startTime: '08:00', 
         endTime: '18:00', 
-      },  
+      },
+      nowIndicator:true,  
       height: 'auto',    
       events: '../js/event.json',
       eventColor: 'green',   
@@ -43,10 +44,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if(url === 'Français') url = 'Francais'
         if(url === 'Année 2021-2022' || url === '1er semester 2021-2022' || url === '1er trimestre 2021-2022' || url === "Vacances d'automne" || url === "Semaine COM 1 2021-2022")
         { url = '#'}
-        window.open(url+".html",'_self');
+        window.open("classes/"+url+".html",'_self');
       }
-
-
     });
     calendar.render();
     
