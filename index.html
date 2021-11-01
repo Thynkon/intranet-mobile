@@ -20,14 +20,30 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/menu/menu.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="./css/attendance/attendance.css" type="text/css" media="all" />
+    <link
+      rel="stylesheet"
+      href="./css/menu/menu.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/attendance/attendance.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/index/index.css"
+      type="text/css"
+      media="all"
+    />
 
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./manifest.json" />
 
     <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js', { scope: './' })
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js", { scope: "./" });
       }
     </script>
   </head>
@@ -35,7 +51,7 @@
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="/">
           <img src="../img/logo.png" alt="CPNV logo" width="112" height="208" />
         </a>
 
@@ -65,7 +81,9 @@
             </div>
           </div>
 
-          <a class="navbar-item" href="/pages/attendance.html"> Gestion absences </a>
+          <a class="navbar-item" href="/pages/attendance.html">
+            Gestion absences
+          </a>
 
           <a class="navbar-item"> Paramètres </a>
         </div>
@@ -85,190 +103,41 @@
     <!-- Horizontally align all items in grid -->
     <!-- bulma.io/documentation/layout/hero -->
     <div class="hero">
-      <div class="hero-body colums is-desktop is-mobile is-vcentered pt-1">
-        <div class="column is-size-4 has-text-centered">
-          <a href="#">
-            <i class="fas fa-chevron-left"></i>
-          </a>
-          Semaine 7
-          <a href="#">
-            <i class="fas fa-chevron-right"></i>
-          </a>
+      <div class="hero-body">
+        <div
+          class="
+            columns
+            is-desktop is-mobile is-vcentered
+            pt-1
+            is-flex-direction-column
+          "
+        >
+          <div class="column is-size-4 has-text-centered">
+            Bienvenue au CPNV
+          </div>
+          <div
+            id="index_images"
+            class="columns is-desktop is-mobile pt-1 is-centered"
+          >
+            <div class="column is-one-quarter-desktop is-half-mobile has-text-centered">
+              <a href="/pages/calendar.html?week.html">
+                <figure class="image is-square">
+                  <img src="./img/calendar.svg" />
+                </figure>
+              </a>
+            </div>
+            <div class="column is-one-quarter-desktop is-half-mobile has-text-centered">
+              <a href="/pages/attendance.html">
+                <figure class="image is-square">
+                  <img src="./img/attendance.svg" />
+                </figure>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-        
-    <div class="table-container">
-      <table class="table is-fullwidth is-striped table is-hoverable cente">
-        <thead>
-          <tr>
-            <th>Elèves</th>
-            <th>L</th>
-            <th>M</th>
-            <th>M</th>
-            <th>J</th>
-            <th>V</th>
-            <th>T</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <span class="is-uppercase">Baudraz</span> Yannick
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Bouillant</span> Anthony
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Costa-dos-Santos</span> Mauro-Alexandre
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Delgado</span> Noah
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Dubuis</span> Helene
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Gautier</span> Theo
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Goldenschue</span> Cyril
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Marechal</span> Armand
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Moita-Martins</span> Filipe-Alexandre
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Ohan</span> Melodie
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Rabot</span> Mathieu
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Rocha-Ferreira</span> Mario-Andre
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Samoutphonh</span> Souphakone
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-          <tr>
-            <td>
-              <span class="is-uppercase">Tesfazghi</span> Robiel
-            </td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-            <td><a href="/pages/attendance_per_period.html">0</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+
     <script src="../js/main.js"></script>
   </body>
 </html>
