@@ -1,1 +1,10 @@
 @import "../lib/lib.scss";
+
+@media(max-width: 768px) {
+  .is-flex.is-vertical {
+      .firstname {
+          padding-left: 0% !important;
+      }
+    flex-direction: column;
+  }
+}
