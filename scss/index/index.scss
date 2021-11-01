@@ -6,3 +6,13 @@
 #index_images {
     width: 100%;
 }
+
+@media(max-width: 768px) {
+    #index_images {
+        flex-direction: column;
+
+        .column {
+            margin: auto;
+        }
+    }
+}
