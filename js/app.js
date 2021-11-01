@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         duration: { days: 3 } 
       }
     }, 
-    initialView: url[1] !== 'day'? 'timeGridWeek':'timeGridDay',
+    initialView: url[1] !== 'day'? 'Semaine':'timeGridDay',
 
       
       slotMinTime:'07:00',
