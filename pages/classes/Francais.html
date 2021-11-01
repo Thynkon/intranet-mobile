@@ -22,13 +22,13 @@
 
     <link
       rel="stylesheet"
-      href="/../../css/menu/menu.css"
+      href="/css/menu/menu.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
-      href="/../../css/class/class.css"
+      href="/css/class/class.css"
       type="text/css"
       media="all"
     />
@@ -38,7 +38,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="/../../img/logo.png" alt="CPNV logo" width="112" height="208" />
+          <img src="/img/logo.png" alt="CPNV logo" width="112" height="208" />
         </a>
 
         <a
@@ -62,12 +62,12 @@
             <a class="navbar-link"> Horaire </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/../pages/calendar.html?week"> Semaine </a>
-              <a class="navbar-item" href="/../pages/calendar.html?day"> Jour </a>
+              <a class="navbar-item" href="/pages/calendar.html?week"> Semaine </a>
+              <a class="navbar-item" href="/pages/calendar.html?day"> Jour </a>
             </div>
           </div>
 
-          <a class="navbar-item" href="/..//pages/attendance.html">
+          <a class="navbar-item" href="/pages/attendance.html">
             Gestion absences
           </a>
 
@@ -92,15 +92,20 @@
       <div class="hero-body colums is-desktop is-mobile is-vcentered pt-1">
         <div class="column">
           <div class="column has-text-left">
-            <a class="is-size-4" href="./../calendar.html"
-              ><span class="fas fa-chevron-left"></span
-            ></a>
+            <a class="is-size-4" href="/pages/calendar.html">
+              <span class="fas fa-chevron-left"></span>
+            </a>
           </div>
         </div>
+
         <div class="column pt-0 pb-0 is-three-quarters center">
           <div class="columns is-multiline is-vcentered mt-2 mb-2">
             <div
-              class="column has-text-centered has-text-weight-bold is-full is-size-4"
+              class="
+                column
+                has-text-centered has-text-weight-bold
+                is-full is-size-4
+              "
             >
               5
             </div>
@@ -108,89 +113,165 @@
           </div>
         </div>
 
-        <div
-          class="column center is-size-5 is-uppercase is-three-quarters is-full-mobile"
-        >
-          Fraçais
+        <div>
+          <div
+            class="
+              column
+              center
+              is-size-5 is-uppercase is-three-quarters is-full-mobile
+              has-text-centered-desktop
+            "
+          >
+            Français
+          </div>
+
+          <div class="column center is-three-quarters is-full-mobile pb-0">
+            <div class="columns is-dekstop is-mobile">
+              <div
+                class="
+                  column
+                  is-half is-flex-desktop is-justify-content-right
+                  padding-right
+                "
+              >
+                <div
+                  class="
+                    column
+                    is-5-desktop
+                    is-10-mobile
+                    is-vertical-center
+                    is-two-fifths-mobile
+                    is-1-desktop
+                    class-event
+                    has-background-danger-dark has-text-white
+                    mt-2
+                    mb-2
+                  "
+                >
+                  <span class="fas fa-marker"></span>&nbsp;Examen
+                </div>
+              </div>
+
+              <div
+                class="column is-vertical-center has-text-right padding-left"
+              >
+                Description examen
+              </div>
+            </div>
+          </div>
+
+          <div class="column center is-three-quarters is-full-mobile pt-0">
+            <div class="columns is-desktop is-mobile">
+              <div
+                class="
+                  column
+                  is-half-desktop is-flex-desktop is-justify-content-right
+                  padding-right
+                "
+              >
+                <div
+                  class="
+                    column
+                    is-5-desktop
+                    is-10-mobile
+                    is-vertical-center
+                    is-two-fifths-mobile
+                    is-1-desktop
+                    class-event
+                    has-background-primary-dark has-text-white
+                    mt-2
+                    mb-2
+                  "
+                >
+                  <i class="fas fa-info-circle"></i>&nbsp;Notice
+                </div>
+              </div>
+
+              <div
+                class="
+                  column
+                  is-half is-vertical-center
+                  has-text-right
+                  padding-left
+                "
+              >
+                Description notice
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="column center mb-2 is-three-quarters is-full-mobile">
+        <div
+          class="
+            column
+            center
+            has-text-centered-desktop has-text-weight-bold
+            is-size-5
+            mt-2
+            mb-2
+            is-three-quarters is-full-mobile
+          "
+        >
+          Informations complémentaires
+        </div>
+
+        <div class="column center is-three-quarters is-full-mobile pb-0">
           <div class="columns is-dekstop is-mobile">
             <div
               class="
                 column
-                is-vertical-center is-two-fifths-mobile is-1-desktop
-                class-event
-                has-background-danger-dark has-text-white
-                mt-2
-                mb-2
+                is-half is-flex-desktop is-justify-content-right
+                padding-right
               "
             >
-              <span class="fas fa-marker"></span>&nbsp;Examen
+              <div class="is-vertical-center">
+                <i class="fas fa-map-marker-alt has-text-weight-bold"></i>
+                <span class="is-uppercase">&nbsp;Sc-c322</span>
+              </div>
             </div>
 
-            <div
-              class="column is-vertical-center mt-2 mb-2 pt-0 has-text-right"
-            >
-              Description examen
+            <div class="column is-vertical-center has-text-right padding-left">
+              <div class="is-vertical-center">
+                <i class="fas fa-clock has-text-weight-bold"></i
+                >&nbsp;Début:&nbsp;-&nbsp;
+                <i class="fas fa-clock has-text-weight-bold"></i>&nbsp;Fin:
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="column center mb-2 is-three-quarters is-full-mobile">
+        <div class="column center is-three-quarters is-full-mobile pt-0">
           <div class="columns is-desktop is-mobile">
             <div
               class="
                 column
-                is-vertical-center is-two-fifths-mobile is-1-desktop
-                class-event
-                has-background-primary-dark has-text-white
-                mt-2
-                mb-2
+                is-half-desktop is-flex-desktop is-justify-content-right
+                padding-right
               "
             >
-              <i class="fas fa-info-circle"></i>&nbsp;Notice
-            </div>
-
-            <div
-              class="column is-vertical-center mt-2 mb-2 pt-0 has-text-right"
-            >
-              Description notice
-            </div>
-          </div>
-        </div>
-
-        <div class="column center has-text-weight-bold is-size-5 mt-2 mb-2 is-three-quarters is-full-mobile">
-          Informations complémentaires
-        </div>
-
-        <div class="column center mt-2 mb-2 is-three-quarters is-full-mobile">
-          <div class="columns is-multiline is-desktop is-mobile">
-            <div class="column is-half-mobile is-half-desktop mt-2 mb-2">
-              <div>
-                <i class="fas fa-map-marker-alt has-text-weight-bold"></i>
-                <span class="is-uppercase">Sc-c322</span>
+              <div class="is-vertical-center">
+                <i class="fas fa-sticky-note has-text-weight-bold"></i>
+                &nbsp;Description du module
               </div>
             </div>
 
-            <div class="column is-half-mobile is-half-desktop mt-2 mb-2">
-              <i class="fas fa-clock has-text-weight-bold"></i> Début: -
-              <i class="fas fa-clock has-text-weight-bold"></i> Fin:
-            </div>
-
-            <div class="column is-half-mobile is-half-desktop mt-2 mb-2">
-              <i class="fas fa-sticky-note has-text-weight-bold"></i>
-              Description du module
-            </div>
-
-            <div class="column is-half-mobile is-half-desktop mt-2 mb-2">
-              <i class="fas fa-user has-text-weight-bold"></i>
-              <span class="is-uppercase">CIMENTI</span> Gabriel
+            <div
+              class="
+                column
+                is-half is-vertical-center
+                has-text-right
+                padding-left
+              "
+            >
+              <div class="is-vertical-center">
+                <i class="fas fa-user has-text-weight-bold"></i>
+                &nbsp;<span class="is-uppercase">CIMENTI</span>&nbsp;Gabriel
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="/../../js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
