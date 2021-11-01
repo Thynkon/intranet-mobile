@@ -1,15 +1,17 @@
+let url = window.location.href.split('?');
 document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
     var calendar = new FullCalendar.Calendar(calendarEl, {
-      initialView: 'timeGridWeek',
-     
-/*   initialView: 'Semaine',
-      views:{
-        Semaine:{
-          type: 'timeGrid',
-          duration: { days: 3 } 
-        }
-      },    */ 
+          
+    initialView: 'Semaine',
+    views:{
+      Semaine:{
+        type: 'timeGrid',
+        duration: { days: 3 } 
+      }
+    }, 
+    initialView: url[1] !== 'day'? 'timeGridWeek':'timeGridDay',
+
       
       slotMinTime:'07:00',
       slotMaxTime:'19:00',
@@ -39,9 +41,14 @@ document.addEventListener('DOMContentLoaded', function() {
       eventClick: function(info) {
         url = info.event.title;
         if(url === 'Français') url = 'Francais'
+        if(url === 'Année 2021-2022' || url === '1er semester 2021-2022' || url === '1er trimestre 2021-2022' || url === "Vacances d'automne" || url === "Semaine COM 1 2021-2022")
+        { url = '#'}
         window.open(url+".html",'_self');
       }
+
+
     });
     calendar.render();
+    
   });
 
