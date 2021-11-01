@@ -1,0 +1,28 @@
+@import "../lib/lib.scss";
+
+form {
+  width: 40%;
+  margin: auto;
+
+  .field-label {
+    flex-basis: auto !important;
+  }
+
+  .field-body {
+    justify-content: right;
+  }
+
+  .field.is-narrow {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+
+    .field-body {
+      justify-content: center;
+    }
+  }
+}
