@@ -1,4 +1,13 @@
 @import "../lib/lib.scss";
+@import "../lib/variables.scss";
+
+.fa-chevron-right, .fa-chevron-left {
+  color: $a-color;
+}
+
+a {
+  color: $a-color;
+}
 
 @media(max-width: 768px) {
   .is-flex.is-vertical {

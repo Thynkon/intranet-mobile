@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-@import "../../node_modules/bulma/bulma.sass";
 @import "../lib/variables";
 
 // Import a Google Font
@@ -11,10 +10,12 @@ $family-sans-serif: "Roboto", sans-serif;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-$navbar-background-color: $primary_color;
-$navbar-item-hover-background-color: $primary_light_color;
-$navbar-dropdown-item-hover-background-color: $primary_light_color;
-$navbar-dropdown-background-color: $primary_color;
+$navbar-height: 4.25rem;
+
+$navbar-background-color: $q;
+$navbar-item-hover-background-color: $navbar-hover-color;
+$navbar-dropdown-item-hover-background-color: $navbar-item-hover-background-color;
+$navbar-dropdown-background-color: $navbar-background-color;
 
 $navbar-item-color: white;
 $navbar-burger-color: $navbar-item-color;
@@ -23,19 +24,14 @@ $navbar-dropdown-arrow: $navbar-item-color;
 $navbar-dropdown-item-active-color: $navbar-item-color;
 $navbar-dropdown-item-hover-color: $navbar-item-color;
 
-$button-background-color: $button_color;
+$button-background-color: $navbar-button-color;
 $button-color: white;
-$button-hover-color: $button-color;
-$button-border-color: black;
-$button-border-hover-color: black;
+$button-hover-color: white;
+$button-border-color: none;
+$button-border-hover-color: none;
 
 // Import only what you need from Bulma
 @import "../../node_modules/bulma/sass/utilities/_all.sass";
-@import "../../node_modules/bulma/sass/base/_all.sass";
-@import "../../node_modules/bulma/sass/elements/button.sass";
-@import "../../node_modules/bulma/sass/elements/container.sass";
-@import "../../node_modules/bulma/sass/elements/title.sass";
 @import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
 @import "../../node_modules/bulma/sass/components/navbar.sass";
-@import "../../node_modules/bulma/sass/layout/hero.sass";
-@import "../../node_modules/bulma/sass/layout/section.sass";

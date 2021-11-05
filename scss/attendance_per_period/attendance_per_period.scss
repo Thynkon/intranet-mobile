@@ -1,4 +1,5 @@
 @import "../lib/lib.scss";
+@import "../lib/variables.scss";
 
 form {
   width: 40%;
@@ -14,6 +15,18 @@ form {
 
   .field.is-narrow {
     width: 100%;
+  }
+
+  .button {
+    background-color: $navbar-button-color !important;
+  }
+
+  .select select {
+    border: 1px solid $navbar-button-color !important;
+  }
+
+  .select:after {
+    border-color: $navbar-button-color !important;
   }
 }
 
