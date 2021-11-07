@@ -3,12 +3,12 @@ $primary_light_color: #2C5C7A;
 $button_color: #5CD034;
 $font_color: #FFFFFF;
 
-$c1: #060819;
-$c2: #1B1E36;
-$c3: #1D2D48;
+$c1: hsl(234, 61%, 6%);
+$c2: hsl(233, 33%, 16%);
+$c3: hsl(218, 43%, 20%);
 $c4: hsl(186, 63%, 23%);
-$c5: #347161;
-$c6: #836A23;
+$c5: hsl(164, 37%, 32%);
+$c6: hsl(44, 58%, 33%);
 
 // USE SASS COLOR MODULE => only changed 2 param to 70, and third to 30
 $navbar-button-color: hsl(164, 50%, 32%);
@@ -16,3 +16,11 @@ $navbar-button-color: hsl(164, 50%, 32%);
 
 $a-color: hsl(164, 37%, 32%);
 $a-hover-color: hsl(186, 70%, 30%);
+
+// based on color c5
+// only changed last param to 60
+$calendar-event: hsl(150, 37%, 32%);
+$calendar-event-title: hsl(150, 37%, 35%);
+
+$calendar-toolbar-color: $c3;
+$calendar-toolbar-color-hover: hsl(218, 43%, 40%);
