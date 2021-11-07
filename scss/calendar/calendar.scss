@@ -40,3 +40,8 @@ a.fc-daygrid-block-event {
   pointer-events: none;
   cursor: default;
 }
+
+// remove fullcalendar events border
+.fc-v-event {
+  background-color: $calendar-event !important;
+}
