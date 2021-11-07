@@ -9,6 +9,9 @@
 
 .fa-calendar-alt, .fa-user-check {
     font-size: 40vh;
+    &:hover {
+        color: $a-hover-color;
+    }
 }
 
 @media(max-width: 768px) {

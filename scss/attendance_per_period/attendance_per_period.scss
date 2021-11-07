@@ -19,6 +19,10 @@ form {
 
   .button {
     background-color: $navbar-button-color !important;
+
+    &:hover {
+      background-color: $a-hover-color !important;
+    }
   }
 
   .select select {

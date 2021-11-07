@@ -13,6 +13,14 @@ $padding: 30vh;
     align-items: center;
 }
 
+a {
+    color: $a-color;
+
+    &:hover {
+        color: $a-hover-color;
+    }
+}
+
 @media (min-width: 1024px) {
     .padding-left {
         padding-left: $padding;
