@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+.fa-calendar-alt, .fa-user-check {
+    font-size: 40vh;
+}
+
 @media(max-width: 768px) {
     #index_images {
         flex-direction: column;
@@ -14,5 +18,9 @@
         .column {
             margin: auto;
         }
+    }
+
+    .fa-calendar-alt, .fa-user-check {
+        font-size: 20vh;
     }
 }
