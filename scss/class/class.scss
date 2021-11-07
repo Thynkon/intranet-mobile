@@ -5,7 +5,15 @@
 $padding: 30vh;
 
 .class-event {
-    border-radius: 8vh;;
+    border-radius: 8vh;
+}
+
+#exam {
+    background-color: $exam-color;
+}
+
+#notice {
+    background-color: $notice-color;
 }
 
 .is-vertical-center {
