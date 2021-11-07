@@ -1,6 +1,3 @@
- :root{
-    --fc-event-border-color: rgba(0,152,50,255) !important;
- }
 
  body {
     margin: 0;
@@ -15,10 +12,10 @@
 }
 
 .fc-event-title-container{
-    background-color: rgba(77,183,113,255);
+    background-color: $navbar-button-color;
 }
 .fc-event-time{
-  background-color: rgba(0,152,50,255);
+  background-color: $navbar-hover-color;
 }
 .fc-event-title{
     font-size: 2.3vh;
