@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     initialView: url[1] !== "day" ? "Semaine" : "timeGridDay",
 
+    // show time blocks of 15 minutes
     slotDuration: '00:15:00',
     slotMinTime: "07:00",
     slotMaxTime: "19:00",
@@ -18,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
     expandRows: true,
     weekends: false,
     locale: "fr",
+    // do not show event duration
+    displayEventTime: false,
 
     // remove monthly view button
     headerToolbar: {
