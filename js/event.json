@@ -48,7 +48,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Physique",
+      "title": "Phys",
       "daysOfWeek": [
         "1"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Anglais",
+      "title": "Angl",
       "daysOfWeek": [
         "2"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Maths",
+      "title": "Math",
       "daysOfWeek": [
         "3"
       ],
@@ -147,7 +147,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Maths",
+      "title": "Math",
       "daysOfWeek": [
         "4"
       ],
@@ -158,7 +158,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Appuis",
+      "title": "Appu",
       "daysOfWeek": [
         "4"
       ],
@@ -169,7 +169,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Français",
+      "title": "Fran",
       "daysOfWeek": [
         "4"
       ],
@@ -224,7 +224,7 @@
     },
     {
       "startRecur": "2021-08-23",
-      "title": "Rattrapages",
+      "title": "Ratt",
       "daysOfWeek": [
         "5"
       ],
@@ -257,7 +257,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Physique",
+      "title": "Phys",
       "daysOfWeek": [
         "1"
       ],
@@ -268,7 +268,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Anglais",
+      "title": "Angl",
       "daysOfWeek": [
         "2"
       ],
@@ -312,7 +312,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Maths",
+      "title": "Math",
       "daysOfWeek": [
         "3"
       ],
@@ -356,7 +356,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Maths",
+      "title": "Math",
       "daysOfWeek": [
         "4"
       ],
@@ -367,7 +367,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Appuis",
+      "title": "Appu",
       "daysOfWeek": [
         "4"
       ],
@@ -378,7 +378,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Français",
+      "title": "Fran",
       "daysOfWeek": [
         "4"
       ],
@@ -433,7 +433,7 @@
     },
     {
       "startRecur": "2021-11-01",
-      "title": "Rattrapages",
+      "title": "Ratt",
       "daysOfWeek": [
         "5"
       ],
