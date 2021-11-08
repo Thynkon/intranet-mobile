@@ -72,7 +72,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#hacking-on-the-project">Hacking on the project</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#documentation">Documentation</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -95,10 +94,10 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [PHP 8.0](https://www.php.net/releases/8.0/en.php)
-* [Mariadb 10.6.4](https://mariadb.com/kb/en/mariadb-1064-release-notes/)
-* [Composer 2.1.11](https://getcomposer.org/download/)
-
+* [Bulma 0.9.3](https://bulma.io/)
+* [FullCalendar 5.10.0](https://fullcalendar.io/)
+* [Fontawesome 5.15](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
+* [Figma](https://www.figma.com/)
 
 
 <!-- GETTING STARTED -->
@@ -107,15 +106,20 @@ Here's a blank template to get started:
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-#### [Composer](https://getcomposer.org/)
+#### [NPM](https://www.npmjs.com/)
 - Archlinux
 ```sh
-  $ sudo pacman -S composer
+  $ sudo pacman -S npm
 ```
 
 - NixOS
 ```sh
-  $ nix-env -iA nixos php80Packages.composer
+  $ nix-env -iA nixos.nodePackages.npm
+```
+
+- Windows
+```sh
+  $ choco install npm
 ```
 
 ### Installation
@@ -127,45 +131,20 @@ To get a local copy up and running follow these simple steps.
 2. Install php packages
    ```sh
    $ cd intranet-mobile
-   $ composer install
+   $ npm install install
    ```
    
 3. Compile scss files to css
-```sh
-$ composer build-css
-```
+  ```sh
+  $ npm run css
+  ```
 
-4. Setup database connection
-This projects uses PDO as the database connector. In order to connect to a database, you must
-set the DSN, the username and his password in **.env.php**.
-
-```php
-<?php
-
-DEFINE('DSN', 'mysql:dbname=<YOUR_DATABASE_NAME>;host=127.0.0.1');
-DEFINE('USERNAME', '<USERNAME>');
-DEFINE('PASSWORD', '<PASSWORD>');
-```
-
-5. Populate the database
-```sh
-$ composer populate-db
-```
+**NOTE** - This only works on unix-like operating systems because npm will run
+a bash script. If you are using Windows, you can enable [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-## Hacking on the project
-### Tests
-If you have added a feature and you want to test if everything is ok, you can run the unit tests we wrote
-by typing the following:
-```sh
-$ php vendor/bin/phpunit tests
-```
+In case you want a live demo of this application, you can find it [here](https://intranet-mobile.thynkon.xyz/).
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -174,12 +153,11 @@ See the [open issues](https://github.com/Thynkon/intranet-mobile/issues) for a l
 
 ## Documentation
 The documentation about the routing system, class diagrams, database model and the state diagram can be found under the **doc/** folder:
-- [routing system](doc/routes/routes.pdf)
-- [class diagrams](doc/classes/classes.pdf)
-- [database model](doc/db/diagram.pdf)
-- [state diagram](doc/state_diagram.pdf)
-
-We use the [same directory structure as laravel](https://laravel.com/docs/8.x/structure).
+- [attendance mockups](doc/ui/mockup/attendance)
+- [time management mockups](doc/ui/mockup/time)
+- [moodboard](doc/ui/moodboard/moodboard.pdf)
+- [competitor analysis](doc/analysis/analysis.pdf)
+- [fonts and colors](doc/fonts_colors/fonts_colors.pdf)
 
 <!-- CONTRIBUTING -->
 ## Contributing
