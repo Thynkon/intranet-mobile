@@ -35,7 +35,7 @@
   <p align="center">
     A mobile port of the official CPNV intranet webapp.
     <br />
-    <a href="https://github.com/Thynkon/intranet-mobile/doc/ui"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Thynkon/intranet-mobile/tree/master/doc/ui"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://intranet-mobile.thynkon.xyz/">View Demo</a>
