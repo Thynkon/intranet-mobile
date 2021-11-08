@@ -30,28 +30,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Thynkon/intranet-mobile">
-    <img src="public/assets/img/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Intranet-mobile</h3>
 
   <p align="center">
-    A small webapp written in PHP that follows the MVC pattern.<br/>
-    Its goals are to create, manage and delete quizzes.<br/>
-    Users can also get some statistics related to the answers.
+    A mobile port of the official CPNV intranet webapp.
     <br />
-    <a href="https://github.com/Thynkon/intranet-mobile/doc"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Thynkon/intranet-mobile/doc/ui"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Thynkon/intranet-mobile">View Demo</a>
+    <a href="https://intranet-mobile.thynkon.xyz/">View Demo</a>
     ·
     <a href="https://github.com/Thynkon/intranet-mobile/issues">Report Bug</a>
     ·
     <a href="https://github.com/Thynkon/intranet-mobile/issues">Request Feature</a>
   </p>
 </p>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -84,14 +77,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
 ### Built With
 
 * [Bulma 0.9.3](https://bulma.io/)
@@ -108,19 +93,19 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 #### [NPM](https://www.npmjs.com/)
 - Archlinux
-```sh
-  $ sudo pacman -S npm
-```
+   ```sh
+   $ sudo pacman -S npm
+   ```
 
 - NixOS
-```sh
-  $ nix-env -iA nixos.nodePackages.npm
-```
+   ```sh
+   $ nix-env -iA nixos.nodePackages.npm
+   ```
 
 - Windows
-```sh
-  $ choco install npm
-```
+   ```sh
+   $ choco install npm
+   ```
 
 ### Installation
 
