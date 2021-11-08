@@ -11,6 +11,12 @@ a {
 
 td {
   vertical-align: middle !important;
+
+  a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media(max-width: 768px) {
