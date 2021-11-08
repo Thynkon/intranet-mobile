@@ -9,6 +9,10 @@ a {
   }
 }
 
+td {
+  vertical-align: middle !important;
+}
+
 @media(max-width: 768px) {
   .is-flex.is-vertical {
       .firstname {
