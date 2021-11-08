@@ -128,16 +128,17 @@ To get a local copy up and running follow these simple steps.
    ```sh
    $ git clone https://github.com/Thynkon/intranet-mobile.git
    ```
-2. Install php packages
+2. Install dependencies
    ```sh
    $ cd intranet-mobile
-   $ npm install install
+   $ npm install
+   $ npm install -g sass
    ```
    
 3. Compile scss files to css
-  ```sh
-  $ npm run css
-  ```
+   ```sh
+   $ npm run css
+   ```
 
 **NOTE** - This only works on unix-like operating systems because npm will run
 a bash script. If you are using Windows, you can enable [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
@@ -170,19 +171,14 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
 Project Link: [https://github.com/Thynkon/intranet-mobile](https://github.com/Thynkon/intranet-mobile)
 
