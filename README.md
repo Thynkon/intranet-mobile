@@ -144,6 +144,7 @@ The documentation about the routing system, class diagrams, database model and t
 - [time management mockups](doc/ui/mockup/time)
 - [moodboard](doc/ui/moodboard/moodboard.pdf)
 - [competitor analysis](doc/analysis/analysis.pdf)
+- [planning](doc/planning/planning.pdf)
 - [fonts and colors](doc/fonts_colors/fonts_colors.pdf)
 
 <!-- CONTRIBUTING -->
