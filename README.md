@@ -140,12 +140,14 @@ See the [open issues](https://github.com/Thynkon/intranet-mobile/issues) for a l
 
 ## Documentation
 The documentation about the routing system, class diagrams, database model and the state diagram can be found under the **doc/** folder:
-- [attendance mockups](doc/ui/mockup/attendance)
-- [time management mockups](doc/ui/mockup/time)
-- [moodboard](doc/ui/moodboard/moodboard.pdf)
 - [competitor analysis](doc/analysis/analysis.pdf)
 - [planning](doc/planning/planning.pdf)
+- [moodboard](doc/ui/moodboard/moodboard.pdf)
 - [fonts and colors](doc/fonts_colors/fonts_colors.pdf)
+- [attendance mockups](doc/ui/mockup/attendance/attendance.pdf)
+- time management mockups
+  - [daily](doc/ui/mockup/time/daily.pdf)
+  - [weekly](doc/ui/mockup/time/weekly.pdf)
 
 <!-- CONTRIBUTING -->
 ## Contributing
