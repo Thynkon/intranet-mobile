@@ -97,11 +97,6 @@ To get a local copy up and running follow these simple steps.
    $ sudo pacman -S npm
    ```
 
-- NixOS
-   ```sh
-   $ nix-env -iA nixos.nodePackages.npm
-   ```
-
 - Windows
    ```sh
    $ choco install npm
@@ -126,7 +121,13 @@ To get a local copy up and running follow these simple steps.
    ```
 
 **NOTE** - This only works on unix-like operating systems because npm will run
-a bash script. If you are using Windows, you can enable [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).
+a bash script. 
+
+If you are running windows type instead:
+```
+$ pip install -r requirements.txt
+$ npm run css-windows
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage

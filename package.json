@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "./scripts/compileScss.sh",
+    "css-windows": "python ./scripts/compileScss.py",
     "start": "npm run css"
   },
   "repository": {
